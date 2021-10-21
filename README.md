@@ -19,7 +19,7 @@
 5.	Open new terminal window and enter the follow command to complete port forwarding
      a.	Use the recorded 4 digit port number
     
-     >> ssh -N -L localhost:8888:localhost:8888 username@unomaha.edu@<IP address>
+     >> ssh -N -L localhost:8888:localhost:8888 username@unomaha.edu@\<IP address\>
 
 6.	Open copied link from step 4 in web browser
   
