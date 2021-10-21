@@ -1,0 +1,5 @@
+#### remove upto k files in the directory, ==> the files in the directory will be k after executing this command
+
+   $$ ls -l | head -n -k | xargs -f --
+   
+   
