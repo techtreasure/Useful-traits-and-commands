@@ -4,7 +4,7 @@
 
 1.	Log into Lambda Labs via Terminal
     
-     >> ssh username@unomaha.edu@<IP address>
+     >> ssh username@unomaha.edu@<IP-address>
 
 2.	Navigate to Debug program folder
 
