@@ -22,5 +22,11 @@
 6.	Open copied link from step 4 in web browser
   
   
- ##############################################################################################################
+ #########################################################################################
+    
+ ### generate intellicense in jupyter notebooks running locally
+    
+  Run the following command before beginning to code
+    
+    >> %config IPCompleter.greedy=True
 
