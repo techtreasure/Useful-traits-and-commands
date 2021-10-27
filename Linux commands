@@ -2,4 +2,6 @@
 
    $$ ls -l | head -n -k | xargs -f --
    
-   
+  
+#### find if process is running on which port
+ $$ sudo netstat -plten |grep <port/process name ,ex: java)
