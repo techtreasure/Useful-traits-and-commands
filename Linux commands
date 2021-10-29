@@ -6,4 +6,8 @@
 #### find if process is running on which port
  $$ sudo netstat -plten |grep <port/process name ,ex: java)
 
-!mv `ls <source> | head -500` <dest>
+###move 500 files from one folder to other
+   $$  mv `ls <source> | head -500` <dest>
+
+### replace character in all files in folder -- here space with _
+   $$ find . -type f -name "* *.xml" -exec bash -c 'mv "$0" "${0// /_}"' {} \;
