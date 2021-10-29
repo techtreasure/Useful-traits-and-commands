@@ -5,3 +5,5 @@
   
 #### find if process is running on which port
  $$ sudo netstat -plten |grep <port/process name ,ex: java)
+
+!mv `ls <source> | head -500` <dest>
